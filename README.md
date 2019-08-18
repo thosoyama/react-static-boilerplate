@@ -1,0 +1,1 @@
+# React-Static - TypeScript Boilerplate
