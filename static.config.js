@@ -8,6 +8,7 @@ import fs from 'fs'
 
 export default {
   entry: path.join(__dirname, 'src', 'index.tsx'),
+  siteRoot: 'https://t-hosoyama.github.io',
   basePath: '/react-static-boilerplate/',
   devBasePath: '/',
   getRoutes: async () => {
