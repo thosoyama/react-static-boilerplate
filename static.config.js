@@ -8,9 +8,6 @@ import fs from 'fs'
 
 export default {
   entry: path.join(__dirname, 'src', 'index.tsx'),
-  siteRoot: 'https://t-hosoyama.github.io',
-  assetsPath: '/react-static-boilerplate/',
-  devAssetsPath: '/',
   getRoutes: async () => {
     const items = JSON.parse(fs.readFileSync('./src/config/item.json', 'utf8'));
 
@@ -47,7 +44,4 @@ export default {
       <Body>{children}</Body>
     </Html>
   ),
-  paths: {
-    dist: 'docs'
-  },
 }
