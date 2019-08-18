@@ -40,6 +40,9 @@ export default {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0" />
+        <meta name="keyword" content="react-static" />
+        <meta name="description" content="react-static typescript boilerplate" />
+        <title>React-Static Typescript Boilerplate</title>
       </Head>
       <Body>{children}</Body>
     </Html>
