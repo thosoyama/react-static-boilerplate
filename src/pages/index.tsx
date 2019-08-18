@@ -28,7 +28,6 @@ export default () => {
 }
 
 const StyledHead = styled('h1')`
-  width: 100%;
   background-color: #eee;
   padding: 10px;
   font-size: 16px;
