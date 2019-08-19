@@ -17,9 +17,9 @@ export default () => {
       <StyledItems>
         <ul>
           {items.map(item => (
-            <li key={item.id}>
+            <StyledItemList key={item.id}>
               <Link to={`/item/${item.id}_${item.name}/`}>{item.title}</Link>
-            </li>
+            </StyledItemList>
           ))}
         </ul>
       </StyledItems>
@@ -35,4 +35,9 @@ const StyledHead = styled('h1')`
 
 const StyledItems = styled('div')`
   margin: 10px;
+`
+
+const StyledItemList = styled('li')`
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
 `
