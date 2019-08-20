@@ -1,12 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Hero: React.FC = ({ children }) => {
-  return (
-    <StyledHero>
-      {children}
-    </StyledHero>
-  )
+interface HeroProps {
+  children: React.ReactNode
+}
+
+const Hero: React.FC = ({ children }: HeroProps) => {
+  return <StyledHero>{children}</StyledHero>
 }
 
 const StyledHero = styled('div')`

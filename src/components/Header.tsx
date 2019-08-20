@@ -2,12 +2,20 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from '@reach/router'
 
-const Header: React.FC = ({ children }) => {
+interface HeaderProps {
+  children: React.ReactNode
+}
+
+const Header: React.FC = ({ children }: HeaderProps) => {
   return (
     <StyledHader>
-      <StyledBack><Link to="/">&lt;</Link></StyledBack>
+      <StyledBack>
+        <Link to="/">&lt;</Link>
+      </StyledBack>
       <StyledTitle>{children ? children : 'Title'}</StyledTitle>
-      <StyledMenu><Link to="/">🍔</Link></StyledMenu>
+      <StyledMenu>
+        <Link to="/">🍔</Link>
+      </StyledMenu>
     </StyledHader>
   )
 }

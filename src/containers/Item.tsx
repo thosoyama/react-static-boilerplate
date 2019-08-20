@@ -4,7 +4,7 @@ import { useRouteData } from 'react-static'
 import { Item } from 'types'
 import Header from 'components/Header'
 
-export default () => {
+const ItemComponent: React.FC = () => {
   const { item }: { item: Item } = useRouteData()
   return (
     <StyledItem>
@@ -35,3 +35,5 @@ const StyledItem = styled('div')`
 const StyledContent = styled('div')`
   margin: 10px;
 `
+
+export default ItemComponent

@@ -1,11 +1,11 @@
 import React from 'react'
 import { Root, Routes } from 'react-static'
 import { Router } from '@reach/router'
-import { createGlobalStyle } from "styled-components"
-import { Reset } from "styled-reset"
-import Header from "components/Header"
+import { createGlobalStyle } from 'styled-components'
+import { Reset } from 'styled-reset'
+import Header from 'components/Header'
 
-const App = () => (
+const App: React.FC = () => (
   <Root>
     <Reset />
     <GlobalStyle />
