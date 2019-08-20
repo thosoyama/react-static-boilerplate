@@ -1,13 +1,13 @@
-import React from "react";
-import { useRouteData } from "react-static";
-import { Link } from "@reach/router";
-import { Item } from "types";
-import styled from "styled-components";
-import Header from "components/Header";
-import Hero from "components/Hero";
+import React from 'react'
+import { useRouteData } from 'react-static'
+import { Link } from '@reach/router'
+import { Item } from 'types'
+import styled from 'styled-components'
+import Header from 'components/Header'
+import Hero from 'components/Hero'
 
-export default () => {
-  const { items }: { items: Item[] } = useRouteData();
+const Index: React.FC = () => {
+  const { items }: { items: Item[] } = useRouteData()
 
   return (
     <>
@@ -24,20 +24,22 @@ export default () => {
         </ul>
       </StyledItems>
     </>
-  );
-};
+  )
+}
 
-const StyledHead = styled("h1")`
+const StyledHead = styled('h1')`
   background-color: #eee;
   padding: 10px;
   font-size: 16px;
-`;
+`
 
-const StyledItems = styled("div")`
+const StyledItems = styled('div')`
   margin: 10px;
-`;
+`
 
-const StyledItemList = styled("li")`
+const StyledItemList = styled('li')`
   border-bottom: 1px solid #ddd;
   padding: 15px 0;
-`;
+`
+
+export default Index
