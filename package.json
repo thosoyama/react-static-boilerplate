@@ -15,9 +15,9 @@
   },
   "dependencies": {
     "@reach/router": "^1.2.1",
-    "react": "^16.8.2",
-    "react-dom": "^16.8.2",
-    "react-static": "^7.0.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-static": "^7.1.0",
     "react-static-plugin-reach-router": "latest",
     "react-static-plugin-sitemap": "latest",
     "react-static-plugin-source-filesystem": "latest",
@@ -28,15 +28,15 @@
   },
   "devDependencies": {
     "@types/node": "^12.7.2",
-    "@types/reach__router": "^1.2.2",
-    "@types/react": "^16.8.2",
-    "@types/react-dom": "^16.8.0",
+    "@types/reach__router": "^1.2.4",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
     "@types/react-hot-loader": "^4.1.0",
     "@types/styled-components": "^4.1.18",
-    "@types/webpack-env": "^1.13.6",
+    "@types/webpack-env": "^1.14.0",
     "@typescript-eslint/eslint-plugin": "^2.0.0",
     "@typescript-eslint/parser": "^2.0.0",
-    "eslint": "^6.2.0",
+    "eslint": "^6.2.1",
     "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.3",
@@ -50,7 +50,7 @@
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-order": "^3.0.1",
     "stylelint-processor-styled-components": "^1.8.0",
-    "typescript": "^3.4.1",
+    "typescript": "^3.5.3",
     "typescript-styled-plugin": "^0.14.0"
   }
 }
