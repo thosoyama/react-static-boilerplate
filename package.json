@@ -52,5 +52,6 @@
     "stylelint-processor-styled-components": "^1.8.0",
     "typescript": "^3.4.1",
     "typescript-styled-plugin": "^0.14.0"
-  }
+  },
+  "version": "0.0.0"
 }
