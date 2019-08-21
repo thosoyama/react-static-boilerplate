@@ -28,8 +28,8 @@ const Index: React.FC = () => {
 }
 
 const StyledHead = styled('h1')`
-  background-color: #eee;
   padding: 10px;
+  background-color: #eee;
   font-size: 16px;
 `
 
@@ -38,8 +38,8 @@ const StyledItems = styled('div')`
 `
 
 const StyledItemList = styled('li')`
-  border-bottom: 1px solid #ddd;
   padding: 15px 0;
+  border-bottom: 1px solid #ddd;
 `
 
 export default Index

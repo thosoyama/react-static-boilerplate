@@ -22,29 +22,29 @@ const Header: React.FC = ({ children }: HeaderProps) => {
 
 const StyledHader = styled('header')`
   display: flex;
+  align-items: center;
+  justify-content: start;
   width: 100%;
   height: 50px;
-  justify-content: start;
-  align-items: center;
   background-color: #fff;
   color: #000;
 `
 
 const StyledBack = styled('div')`
   width: 50px;
-  text-align: center;
   font-size: 20px;
+  text-align: center;
 `
 
 const StyledTitle = styled('p')`
-  text-align: center;
   width: 100%;
+  text-align: center;
 `
 
 const StyledMenu = styled('div')`
   width: 50px;
-  text-align: center;
   font-size: 20px;
+  text-align: center;
 `
 
 export default Header

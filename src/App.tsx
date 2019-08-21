@@ -24,16 +24,15 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
-      'Lucida Grande', sans-serif;
-    font-weight: 300;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
+    font-weight: 300;
   }
 
   a {
-    text-decoration: none;
     color: #108db8;
     font-weight: bold;
+    text-decoration: none;
   }
 `
 

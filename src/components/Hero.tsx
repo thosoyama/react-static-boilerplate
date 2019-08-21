@@ -10,13 +10,13 @@ const Hero: React.FC = ({ children }: HeroProps) => {
 }
 
 const StyledHero = styled('div')`
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
   background-color: #eef;
+  font-size: 20px;
 `
 
 export default Hero
