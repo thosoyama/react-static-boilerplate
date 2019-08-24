@@ -1,5 +1,5 @@
 interface Window {
-    module: any;
+  module: any
 }
 
-declare var window: Window;
+declare const window: Window
