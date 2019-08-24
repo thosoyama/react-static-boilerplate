@@ -1,6 +1,7 @@
 /node_modules
 /artifacts
 /dist
+/tmp
 
 # debug
 npm-debug.log*
