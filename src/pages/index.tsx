@@ -18,7 +18,7 @@ const Index: React.FC = () => {
         <ul>
           {items.map(item => (
             <StyledItemList key={item.id}>
-              <Link to={`/item/${item.id}_${item.name}/`}>{item.title}</Link>
+              <StyledItemLink to={`/item/${item.id}_${item.name}/`}>{item.title}</StyledItemLink>
             </StyledItemList>
           ))}
         </ul>
@@ -38,8 +38,16 @@ const StyledItems = styled('div')`
 `
 
 const StyledItemList = styled('li')`
-  padding: 15px 0;
   border-bottom: 1px solid #ddd;
 `
+
+const StyledItem = styled('a')`
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+`
+
+const StyledItemLink = StyledItem.withComponent(Link)
 
 export default Index
