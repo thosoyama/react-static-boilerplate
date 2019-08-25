@@ -5,7 +5,7 @@ interface HeroProps {
   children: React.ReactNode
 }
 
-const Hero: React.FC = ({ children }: HeroProps) => {
+export const Hero: React.FC = ({ children }: HeroProps) => {
   return <StyledHero>{children}</StyledHero>
 }
 
@@ -18,5 +18,3 @@ const StyledHero = styled('div')`
   background-color: #eef;
   font-size: 20px;
 `
-
-export default Hero

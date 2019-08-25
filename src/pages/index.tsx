@@ -3,8 +3,8 @@ import { useRouteData } from 'react-static'
 import { Link } from '@reach/router'
 import { Item } from 'types'
 import styled from 'styled-components'
-import Header from 'components/Header'
-import Hero from 'components/Hero'
+import { Header } from 'components/Header'
+import { Hero } from 'components/Hero'
 
 const Index: React.FC = () => {
   const { items }: { items: Item[] } = useRouteData()

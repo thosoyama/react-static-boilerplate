@@ -6,7 +6,7 @@ interface HeaderProps {
   children: React.ReactNode
 }
 
-const Header: React.FC = ({ children }: HeaderProps) => {
+export const Header: React.FC = ({ children }: HeaderProps) => {
   return (
     <StyledHader>
       <StyledBack>
@@ -20,7 +20,7 @@ const Header: React.FC = ({ children }: HeaderProps) => {
   )
 }
 
-const StyledHader = styled('header')`
+const StyledHader = styled.header`
   display: flex;
   align-items: center;
   justify-content: start;
@@ -30,21 +30,19 @@ const StyledHader = styled('header')`
   color: #000;
 `
 
-const StyledBack = styled('div')`
+const StyledBack = styled.div`
   width: 50px;
   font-size: 20px;
   text-align: center;
 `
 
-const StyledTitle = styled('p')`
+const StyledTitle = styled.p`
   width: 100%;
   text-align: center;
 `
 
-const StyledMenu = styled('div')`
+const StyledMenu = styled.div`
   width: 50px;
   font-size: 20px;
   text-align: center;
 `
-
-export default Header

@@ -2,7 +2,7 @@ import React from 'react'
 import styled, { createGlobalStyle } from 'styled-components'
 import { useRouteData } from 'react-static'
 import { Item } from 'types'
-import Header from 'components/Header'
+import { Header } from 'components/Header'
 
 const ItemComponent: React.FC = () => {
   const { item }: { item: Item } = useRouteData()
